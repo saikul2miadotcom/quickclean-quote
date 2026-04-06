@@ -43,4 +43,13 @@ export default function Disclaimer() {
       </div>
     </div>
   );
+}          website is independent and responsible for its own operations.
+        </p>
+
+        <p style={{ lineHeight: "1.9" }}>
+          Users should independently verify providers before making service decisions.
+        </p>
+      </div>
+    </div>
+  );
 }
