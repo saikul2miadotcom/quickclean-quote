@@ -235,18 +235,44 @@ export default function Home() {
       </section>
 
       <footer
-        style={{
-          background: "#111827",
-          color: "white",
-          padding: "40px 20px",
-          textAlign: "center"
-        }}
-      >
-        <p>
-          QuickClean Quote helps connect users requesting home cleaning services
-          with local cleaning providers.
-        </p>
-      </footer>
+  style={{
+    background: "#111827",
+    color: "white",
+    padding: "40px 20px",
+    textAlign: "center"
+  }}
+>
+  <p>
+    QuickClean Quote helps connect users requesting home cleaning services
+    with local cleaning providers.
+  </p>
+
+  <div
+    style={{
+      marginTop: "18px",
+      display: "flex",
+      justifyContent: "center",
+      gap: "18px",
+      flexWrap: "wrap"
+    }}
+  >
+    <a href="/privacy" style={{ color: "white", textDecoration: "none" }}>
+      Privacy Policy
+    </a>
+
+    <a href="/terms" style={{ color: "white", textDecoration: "none" }}>
+      Terms of Service
+    </a>
+
+    <a href="/disclaimer" style={{ color: "white", textDecoration: "none" }}>
+      Disclaimer
+    </a>
+
+    <a href="/contact" style={{ color: "white", textDecoration: "none" }}>
+      Contact
+    </a>
+  </div>
+</footer>
     </div>
   );
 }
