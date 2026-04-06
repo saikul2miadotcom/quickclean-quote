@@ -150,6 +150,12 @@ export default function Home() {
               boxShadow: "0 8px 24px rgba(0,0,0,0.08)"
             }}
           >
+            <input
+  type="hidden"
+  name="_next"
+  value="https://YOUR-VERCEL-DOMAIN/thank-you"
+/>
+<input type="hidden" name="_captcha" value="false" />
             <div style={{ display: "grid", gap: "14px" }}>
               <input
                 type="text"
